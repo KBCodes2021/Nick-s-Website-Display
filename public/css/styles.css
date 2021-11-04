@@ -15,7 +15,7 @@
   text-align: center;
   padding-top: 25px;
 }
-  
+
 .div1 {
   background-color: #77ACF1;
   padding: 30rem 30rem;
@@ -51,7 +51,7 @@
 
 
 body {
-  background-image: url("images/RelaxingWaterArt.png");
+  background-image: url("/images/RelaxingWaterArt.png");
   text-align: center;
 }
 
@@ -67,75 +67,6 @@ h2 {
 
 
 
-p2 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p3 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p4 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p5 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p6 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p7 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p8 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p9 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p10 {
-  font-size: 6rem;
-  padding-top: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
-
-p11 {
-  font-size: 6rem;
-  padding-bottom: 100px;
-  color: #B980F0;
-  font-family: 'Barlow', sans-serif;
-}
 
 .footer {
   font-size: 12rem;
