@@ -2,150 +2,272 @@
 <html lang="en" dir="ltr">
 
 
-<!-- BootStrap Install Links -->
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-<!-- BootStrap Install Links -->
-
-
-<head>
+  <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@900&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <title>Collection Display</title>
-</head>
-
-<!-- Font Awesome -->
-<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
+  </head>
 
 <!-- Navbar -->
 
 <!-- Navbar formatting -->
 
-<nav class="navbar navbar-light bg-primary fixed-top">
 
 
-  <div class="container-fluid">
-
-
-    <!-- Navbar text formatting -->
-
-
-    <a class="navbar-brand mb-0 h1" href="#"></a>
-
-    <!-- Navbar Icon -->
-
-    <img src="images/LiteralButton.png" alt="" width="60" height="60">
-
-
-    <a class="navbar-brand mb-0 h1 navbar-text" href="#">Top</a>
-    <a class="navbar-brand mb-0 h1 navbar-text" href="#Middle">Middle</a>
-    <a class="navbar-brand mb-0 h1 navbar-text" href="#Bottom">Bottom</a>
-
-
-    <!-- Navbar Icon -->
-
-    <img src="images/LiteralButton.png" alt="" width="60" height="60">
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Contact Info</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </div>
+<nav class="navbar navbar-light bg-secondary fixed-top transparent" id="nav1">
+<div class="container-fluid">
+<!-- Navbar text formatting -->
+<a class="navbar-brand mb-0 h1" href="#"></a>
+<!-- Navbar Icon -->
+<a class="navbar-brand mb-0 h1 navbar-text" href="#">Top</a>
+<a class="navbar-brand mb-0 h1 navbar-text" href="#Middle">Middle</a>
+<a class="navbar-brand mb-0 h1 navbar-text" href="#Bottom">Bottom</a>
+<!-- Navbar Icon -->
+<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+<div class="offcanvas-header">
+<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://pure-savannah-15751.herokuapp.com/">My Resume</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </nav>
 
 <!-- Navbar -->
 
-<body>
 
 
-  <!-- Title -->
-
-  <p class="title">Nick's Website Collection</p>
+  <!--Div Start -->
 
 
+ <body>
+ <section id="background">
+ <div class="container">
+ <div class="title">
+ <br><br>
+ <h1>Nick's Website Collection</h1>
+ <br>
+ <h2>HTML CSS Bootstrap</h2>
+ </div>
 
-  <!-- Carosel Div 1 -->
-
-
-
-  <div class="div1">
-
-
-
-
-
-    <main>
-
-
-    <div class="col">
-
-    <form action="https://calm-wildwood-53093.herokuapp.com/">
+  <!--Div Start -->
 
 
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-    <div class="col">
-    <div class="card mb-4 rounded-3 shadow-sm">
-    <div class="card-header bg-warning py-3">
-    <h4 class="my-0 fw-normal"></h4>
+
+ <div class="row">
+ <div class="col-md-4">
+ <div class="card text-center">
+ <br>
+ <img class="center" src="images/htmlsquare.png" width="120" height="120"  >
+  <br>
+  <div class="card-body">
+  <h5 class="card-title">Resume</h5>
+  <p class="card-text">My HTML Resume</p>
+  <form action="https://pure-savannah-15751.herokuapp.com/">
+  <button type="submit" value="Go to My Resume"
+    class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
+  </form>
+  </div>
+  </div>
+  </div>
+
+
+
+    <!--Card 2 -->
+
+
+
+    <div class="col-md-4">
+    <div class="card text-center">
     <br>
-    <img src="images/htmlsquare.png" alt="" width="120" height="120">
-    <br><br>
-    </div>
+    <img class="center" src="images/CSS3.png" width="120" height="120">
+    <br>
     <div class="card-body">
-    <h1 class="card-title pricing-card-title">Resume</h1>
-    <ul class="list-unstyled mt-3 mb-4">
-    <p>My Resume in HTML</p>
-    </ul>
+    <h5 class="card-title">CSS</h5>
+    <p class="card-text">My CSS Project</p>
+    <form action="https://calm-wildwood-53093.herokuapp.com/">
     <button type="submit" value="Go to My Resume"
-      class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
+      class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
+    </form>
+    </div>
+    </div>
+    </div>
+
+
+    <!--Card 3 -->
+
+    <div class="col-md-4">
+    <div class="card text-center">
+    <br>
+    <img class="center" src="images/bootstrap.jpeg" width="120" height="120">
+    <br>
+    <div class="card-body">
+    <h5 class="card-title">Bootstrap</h5>
+    <p class="card-text">TinDog Project</p>
+    <form action="https://ancient-mesa-81490.herokuapp.com/">
+    <button type="submit" value="Go to My Resume"
+      class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!--Div 1 End -->
+
+    </div>
+    </section>
+    </body>
+   </html>
+
+    <!--Div 1 End -->
+
+
+
+  <a id="Middle"></a>
+
+
+
+  <!--Div 2 Start -->
+
+
+ <body>
+ <section id="background">
+ <div class="container">
+ <div class="title">
+ <br><br>
+ <h1></h1>
+ <br>
+ <h2>JavaScript API Mailchimp Bootstrap</h2>
+ </div>
+
+  <!--Div 2 Start -->
+
+
+
+ <div class="row">
+ <div class="col-md-4">
+ <div class="card text-center">
+ <br>
+ <img class="center" src="images/javascript.png" width="120" height="120"  >
+  <br>
+  <div class="card-body">
+  <h5 class="card-title">JavaScript</h5>
+  <p class="card-text">Fibonacci Generator</p>
+  <form action="https://infinite-springs-59079.herokuapp.com/">
+  <button type="submit" value="Go to My Resume"
+    class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
+  </form>
+  </div>
+  </div>
+  </div>
+
+
+
+    <!--Card 2 -->
+
+
+
+    <div class="col-md-4">
+    <div class="card text-center">
+    <br>
+    <img class="center" src="images/mailchimp.jpg" width="120" height="120">
+    <br>
+    <div class="card-body">
+    <h5 class="card-title">API Mailchimp</h5>
+    <p class="card-text">Newsletter Signup</p>
+    <form action="https://calm-plateau-03960.herokuapp.com/">
+    <button type="submit" value="Go to My Resume"
+      class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
+    </form>
+    </div>
+    </div>
+    </div>
+
+
+    <!--Card 3 -->
+
+    <div class="col-md-4">
+    <div class="card text-center">
+    <br>
+    <img class="center" src="images/bootstrap.jpeg" width="120" height="120">
+    <br>
+    <div class="card-body">
+    <h5 class="card-title">Bootstrap</h5>
+    <p class="card-text">TinDog Project</p>
+    <form action="https://calm-wildwood-53093.herokuapp.com/">
+    <button type="submit" value="Go to My Resume"
+      class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!--Div 2 End -->
+
+    </div>
+    </section>
+    </body>
+   </html>
+
+    <!--Div 2 End -->
+
+
+
+
+    <!--Div 3 Start -->
+
+
+   <body>
+   <section id="background">
+   <div class="container">
+   <div class="title">
+   <br><br>
+   <h1></h1>
+   <br>
+   <h2>HTML CSS Bootstrap</h2>
+   </div>
+
+    <!--Div 3 Start -->
+
+
+
+   <div class="row">
+   <div class="col-md-4">
+   <div class="card text-center">
+   <br>
+   <img class="center" src="images/htmlsquare.png" width="120" height="120"  >
+    <br>
+    <div class="card-body">
+    <h5 class="card-title">Resume</h5>
+    <p class="card-text">My HTML Resume</p>
+    <form action="https://calm-wildwood-53093.herokuapp.com/">
+    <button type="submit" value="Go to My Resume"
+      class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
     </form>
     </div>
     </div>
@@ -153,263 +275,54 @@
 
 
 
-   <div class="col">
-
-  <form action="https://calm-wildwood-53093.herokuapp.com/">
-
-  <div class="card mb-4 rounded-3 shadow-sm">
-  <div class="card-header bg-warning py-3">
-  <h4 class="my-0 fw-normal"></h4>
-  <br>
-  <img src="images/CSS3.png" alt="" width="120" height="120">
-  <br><br>
-  </div>
-  <div class="card-body">
-  <h1 class="card-title pricing-card-title">CSS<small class="text-muted fw-light"></small></h1>
-  <ul class="list-unstyled mt-3 mb-4">
-  <p>My CSS Project</p>
-  </ul>
-  <button type="submit" value="Go to My Resume"
-    class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
-    </div>
-    </div>
-    </div>
+      <!--Card 2 -->
 
 
 
-
-
-    <div class="col">
-
-    <form action="https://calm-wildwood-53093.herokuapp.com/">
-
-    <div class="card mb-4 rounded-3 shadow-sm border-primary">
-    <div class="card-header py-3 bg-warning border-primary">
-    <h4 class="my-0 fw-normal"></h4>
-    <br>
-    <img src="images/bootstrap.jpeg" alt="" width="120" height="120">
-    <br><br>
-    </div>
-    <div class="card-body">
-    <h1 class="card-title pricing-card-title">Bootstrap<small class="text-muted fw-light"></small></h1>
-    <ul class="list-unstyled mt-3 mb-4">
-    <p>TinDog Project</p>
-    </ul>
-    <button type="submit" value="Go to My Resume"
-      class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
-    </div>
-    </div>
-    </div>
-    </div>
-
-
-
-      </main>
-    </section>
-  </div>
-
-
-
-
-  <!-- Div 1-->
-
-  <a id="Middle"></a>
-
-  <!--Div 2-->
-
-  <div class="div2">
-
-
-
-
-        <main>
-
-
-        <div class="col">
-
-        <form action="https://calm-wildwood-53093.herokuapp.com/">
-
-
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-header bg-warning py-3">
-        <h4 class="my-0 fw-normal"></h4>
-        <br>
-        <img src="images/LiteralButton.png" alt="" width="60" height="60">
-        <br><br>
-        </div>
-        <div class="card-body">
-        <h1 class="card-title pricing-card-title">Resume</h1>
-        <ul class="list-unstyled mt-3 mb-4">
-        <p>My Resume in HTML</p>
-        </ul>
-        <button type="submit" value="Go to My Resume"
-          class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
-        </form>
-        </div>
-        </div>
-        </div>
-
-
-
-       <div class="col">
-
-      <form action="https://calm-wildwood-53093.herokuapp.com/">
-
-      <div class="card mb-4 rounded-3 shadow-sm">
-      <div class="card-header bg-warning py-3">
-      <h4 class="my-0 fw-normal"></h4>
+      <div class="col-md-4">
+      <div class="card text-center">
       <br>
-      <img src="images/LiteralButton.png" alt="" width="60" height="60">
-      <br><br>
-      </div>
-      <div class="card-body">
-      <h1 class="card-title pricing-card-title">CSS<small class="text-muted fw-light"></small></h1>
-      <ul class="list-unstyled mt-3 mb-4">
-      <p>My CSS Project</p>
-      </ul>
-      <button type="submit" value="Go to My Resume"
-        class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
-        </div>
-        </div>
-        </div>
-
-
-
-
-
-        <div class="col">
-
-        <form action="https://calm-wildwood-53093.herokuapp.com/">
-
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-        <div class="card-header py-3 bg-warning border-primary">
-        <h4 class="my-0 fw-normal"></h4>
-        <br>
-        <img src="images/LiteralButton.png" alt="" width="60" height="60">
-        <br><br>
-        </div>
-        <div class="card-body">
-        <h1 class="card-title pricing-card-title">Bootstrap<small class="text-muted fw-light"></small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-        <p>TinDog Project</p>
-        </ul>
-        <button type="submit" value="Go to My Resume"
-          class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
-        </div>
-        </div>
-        </div>
-        </div>
-
-
-
-          </main>
-        </section>
-      </div>
-
-
-  <!-- JavaScript Div 2-->
-
-
-
-
-  <div class="div3">
-
-
-
-
-
-        <main>
-
-
-        <div class="col">
-
-        <form action="https://calm-wildwood-53093.herokuapp.com/">
-
-
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-header bg-warning py-3">
-        <h4 class="my-0 fw-normal"></h4>
-        <br>
-        <img src="images/LiteralButton.png" alt="" width="60" height="60">
-        <br><br>
-        </div>
-        <div class="card-body">
-        <h1 class="card-title pricing-card-title">Resume</h1>
-        <ul class="list-unstyled mt-3 mb-4">
-        <p>My Resume in HTML</p>
-        </ul>
-        <button type="submit" value="Go to My Resume"
-          class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
-        </form>
-        </div>
-        </div>
-        </div>
-
-
-
-       <div class="col">
-
-      <form action="https://calm-wildwood-53093.herokuapp.com/">
-
-      <div class="card mb-4 rounded-3 shadow-sm">
-      <div class="card-header bg-warning py-3">
-      <h4 class="my-0 fw-normal"></h4>
+      <img class="center" src="images/CSS3.png" width="120" height="120">
       <br>
-      <img src="images/LiteralButton.png" alt="" width="60" height="60">
-      <br><br>
-      </div>
       <div class="card-body">
-      <h1 class="card-title pricing-card-title">CSS<small class="text-muted fw-light"></small></h1>
-      <ul class="list-unstyled mt-3 mb-4">
-      <p>My CSS Project</p>
-      </ul>
+      <h5 class="card-title">CSS</h5>
+      <p class="card-text">My CSS Project</p>
+      <form action="https://calm-wildwood-53093.herokuapp.com/">
       <button type="submit" value="Go to My Resume"
-        class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
-        </div>
-        </div>
-        </div>
-
-
-
-
-
-        <div class="col">
-
-        <form action="https://calm-wildwood-53093.herokuapp.com/">
-
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-        <div class="card-header py-3 bg-warning border-primary">
-        <h4 class="my-0 fw-normal"></h4>
-        <br>
-        <img src="images/LiteralButton.png" alt="" width="60" height="60">
-        <br><br>
-        </div>
-        <div class="card-body">
-        <h1 class="card-title pricing-card-title">Bootstrap<small class="text-muted fw-light"></small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-        <p>TinDog Project</p>
-        </ul>
-        <button type="submit" value="Go to My Resume"
-          class="w-100 btn btn-lg btn-outline-danger">Click to View!</button>
-        </div>
-        </div>
-        </div>
-        </div>
-
-
-
-          </main>
-        </section>
+        class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
+      </form>
+      </div>
+      </div>
       </div>
 
 
+      <!--Card 3 -->
 
+      <div class="col-md-4">
+      <div class="card text-center">
+      <br>
+      <img class="center" src="images/bootstrap.jpeg" width="120" height="120">
+      <br>
+      <div class="card-body">
+      <h5 class="card-title">Bootstrap</h5>
+      <p class="card-text">TinDog Project</p>
+      <form action="https://calm-wildwood-53093.herokuapp.com/">
+      <button type="submit" value="Go to My Resume"
+        class="w-100 btn btn-lg btn-outline-success">Click Now!</button>
+      </form>
+      </div>
+      </div>
+      </div>
+      </div>
 
+      <!--Div 3 End -->
 
+      </div>
+      </section>
+      </body>
+     </html>
+
+      <!--Div 3 End -->
 
 
 
@@ -423,7 +336,7 @@
 <!-- Footer-->
 <footer>
   <a id="Bottom" </a>
-    <p class=footer>See you again!</pS>
+
 </footer>
 
 </html>
