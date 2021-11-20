@@ -1,27 +1,63 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Ubuntu', sans-serif;
+
+
+/************* New Background ************/
+
+body {
+	background: linear-gradient(-45deg, #9EDE73, #F7EA00, #E48900, #BE0000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
-/************* Background ************/
-#background {
-    background-color: #dbe5e6;
-    padding: 30px 0px;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
-#backgroud h1 {
-    font-weight: 900;
-    font-size: 34px;
-    padding-bottom: 5px;
-}
+
+
 
 /************* Navbar opacity ************/
 
 #nav1
 {
     background-color:#F00; /*Doesnt seem to affect anything*/
-    opacity: 0.97; /************* the actual sacler ************/
-    filter:(opacity=50);
+    opacity: 0.85; /************* the actual scaler ************/
+    filter: (opacity)=50;
+}
+
+.titleStyle {
+  font-family: 'Fredoka One', cursive;
+  color: #EAEAEA;
+  font-size: 60px;
+  padding-top: 50px;
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.subTitleStyle {
+  font-family: 'Fredoka One', cursive;
+  color: #EAEAEA;
+  font-size: 30px;
+  padding-top: 10px;
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.subSubTitleStyle {
+  font-family: 'Fredoka One', cursive;
+  color: #EAEAEA;
+  font-size: 20px;
+  padding-top: 2px;
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .navbar-text {
@@ -37,9 +73,7 @@
     text-align: center;
     padding: 25px 0px;
 }
-.title p {
-    font-size: 18px;
-}
+
 .card-body {
     box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
 }
