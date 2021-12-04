@@ -19,6 +19,8 @@ app.get("/", function(req, res){
 });
 
 
+getElementById("root");
+
 
 app.listen(process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000");
