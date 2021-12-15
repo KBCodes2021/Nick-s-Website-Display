@@ -1,0 +1,100 @@
+
+
+/************* New Background ************/
+
+body {
+	background: linear-gradient(-45deg, #9EDE73, #F7EA00, #E48900, #BE0000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+/************* Navbar opacity ************/
+
+#nav1
+{
+    background-color:#F00; /*Doesnt seem to affect anything*/
+    opacity: 0.85; /************* the actual scaler ************/
+    filter: (opacity)=50;
+}
+
+.titleStyle {
+  font-family: 'Fredoka One', cursive;
+  color: #EAEAEA;
+  font-size: 60px;
+  padding-top: 50px;
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.subTitleStyle {
+  font-family: 'Fredoka One', cursive;
+  color: #EAEAEA;
+  font-size: 30px;
+  padding-top: 10px;
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.subSubTitleStyle {
+  font-family: 'Fredoka One', cursive;
+  color: #EAEAEA;
+  font-size: 20px;
+  padding-top: 2px;
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.navbar-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 6px;
+}
+.offcanvas-body {
+  color: red;
+}
+
+.title {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.card-body {
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.card {
+    margin: 20px 10px;
+}
+.card-body a {
+    color: #0c7f90;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+.card-body a:hover {
+    color: #63a6b0;
+    text-decoration: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
